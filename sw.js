@@ -1,6 +1,6 @@
 // Offline support. Bump VERSION whenever you change any app file,
 // so phones pick up the new version.
-const VERSION = 'keel-v1';
+const VERSION = 'keel-v2';
 const FONT_CACHE = 'keel-fonts';
 const SHELL = [
   './',
@@ -8,9 +8,9 @@ const SHELL = [
   './styles.css',
   './app.js',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icon-192.png',
+  './icon-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (e) => {
